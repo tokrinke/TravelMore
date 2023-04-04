@@ -1,0 +1,16 @@
+@font-face {
+    font-family: LobsterRegular;
+    src: url(/assets/fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: ManropeRegular;
+    src: url(/assets/fonts/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family: ManropeMedium;
+    src: url(/assets/fonts/Manrope-Medium.ttf);
+}
+@font-face {
+    font-family: InterRegular;
+    src: url(/assets/fonts/Inter-Regular.ttf);
+}

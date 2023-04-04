@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#defaultBtn{
+    font-family: InterRegular;
+    height: 5vh;
+    width: 10vw;
+    background-color: #FFF;
+    color: #0A0A0A;
+    border: none;
+    transition: 1s;
+}
+#defaultBtn:hover{
+    height: 5.5vh;
+    width: 10.5vw;
+    background-color: #1f63bd;
+    color: #FFF;
+    transition: 0.7s;
+}
+.mainAuthHeader{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travelMore{
+    font-family: LobsterRegular;
+    font-size: 8vh;
+    color: #FFF;
+    display: flex;
+    justify-self: flex-start;
+    align-self: center;
+    margin-left: 1vh;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    gap: 3vh;
+    margin-right: 1vh;
+}
+.heroSection{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.leftSection{
+    height: 100%;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+.leftSectionTop{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftSectionTop h2{
+    font-family: ManropeMedium;
+    font-size: 4vh;
+}
+.leftSectionTop p{
+    height: 40%;
+    width: 80%;
+    font-family: ManropeRegular;
+    font-size: 1.5vh;
+}
+.leftSectionTop h3{
+    font-family: ManropeMedium;
+    font-size: 4vh;
+}
+.leftSectionBottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftSectionBottom .boxTbilisi{
+    height: 90%;
+    width: 45%;
+    transition: 1s;
+    box-shadow: 1px 1px 25px 1px gray;
+    background-image: url(/assets/images/tbilisihotels.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.leftSectionBottom .boxBatumi{
+    height: 90%;
+    width: 45%;
+    transition: 1s;
+    box-shadow: 1px 1px 25px 1px gray;
+    background-image: url(/assets/images/batumihotels.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.rightSection{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.authMenu{
+    height: 95%;
+    width: 95%;
+    box-shadow: 1px 1px 25px 1px gray;
+}
+.mainAuthFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+.location{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vh
+}
+.locRight{
+    color: #FFF;
+    font-family: InterRegular;
+}
+.phoneNumber{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vh
+}
+.phoneRight{
+    color: #FFF;
+    font-family: InterRegular;
+}
+.email{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2vh
+}
+.emailRight p{
+    color: #FFF;
+    font-family: InterRegular;
+}
+.hoverCursor{
+    cursor: pointer;
+}
