@@ -1,16 +1,12 @@
 @font-face {
-    font-family: LobsterRegular;
-    src: url(/assets/fonts/Lobster-Regular.ttf);
+    font-family: FigtreeLight;
+    src: url(/assets/fonts/Figtree-Light.ttf);
 }
 @font-face {
-    font-family: ManropeRegular;
-    src: url(/assets/fonts/Manrope-Regular.ttf);
+    font-family: FigtreeRegular;
+    src: url(/assets/fonts/Figtree-Regular.ttf);
 }
 @font-face {
-    font-family: ManropeMedium;
-    src: url(/assets/fonts/Manrope-Medium.ttf);
-}
-@font-face {
-    font-family: InterRegular;
-    src: url(/assets/fonts/Inter-Regular.ttf);
+    font-family: FigtreeMedium;
+    src: url(/assets/fonts/Figtree-Medium.ttf);
 }
