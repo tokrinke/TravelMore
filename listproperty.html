@@ -5,8 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelMore • List your property</title>
+    <link rel="stylesheet" href="/assets/css/animations.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/listproperty.css">
 </head>
 <body style="background-color: #292929;">
-    
+    <img class="listBgImg" id="listMainBg" src="/assets/images/foggyforest.jpg" alt="foggyforest">
+    <header class="listHeader">
+        <div class="listHeaderTitle cursorHover" href="#">
+            TravelMore
+        </div>
+        <div class="toHome">
+            Home
+        </div>
+        <div class="listUserIcon">
+            <i class="fa-solid fa-circle-user fa-2xl cursorHover" style="color: #ffffff;"></i>
+        </div>
+    </header>
+    <section class="listMainSection">
+        <div class="createListing">
+            <div class="createListingHeader">
+                List your property
+            </div>
+            <div class="createListingMain">
+                <div class="listingUploadImage">
+                    <div class="uploadImgWindow">
+                        <div id="displayUploadedImg">
+                            
+                        </div>
+
+                    </div>
+                    <div class="uploadImgBottom">
+                        <label for="userUploadedImg" class="customChooseFile defaultBtn">
+                            Choose File
+                        </label>
+                        <input style="display: none;" type="file" id="userUploadedImg" class="defaultBtn" accept="image/png, image/jpg, image/jpeg">
+                        <button class="defaultBtn">Upload Image</button>
+                    </div>
+                </div>
+                <div class="listingUploadInfo">
+                    <div class="listingInfoBox">
+                        <div class="listingInputBoxes">
+                                <input type="text" class="inputHotelName bigInput" placeholder="Hotel Name:">
+                            <div class="detailedInfoInputs">
+                                <input type="number" class="priceForOneNight smallInput" placeholder="Input price for one night: " >
+                                <input type="number" class="priceForOneWeek smallInput" placeholder="Input price for one Week: " >
+                            </div>
+                                <input type="text" class="inputHotelAddress bigInput" placeholder="Hotel address:">
+                                <input type="email" class="inputContactEmail bigInput" placeholder="Hotel email:" >
+                                <input type="number" class="inputContactNumber bigInput" placeholder="Hotel number:" >
+                                <button class="defaultBtn">Save</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="chatInfo">
+        Have a question? We are happy to answer!
+    </div>
+    <div class="chat cursorHover">
+        <i id="chatIcon" class="fa-solid fa-comments fa-2xl cursorHover" style="color: #101010;"></i>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5daa8eb347.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/listproperty.js"></script>
 </body>
 </html>
