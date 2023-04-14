@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cursorHover{
+    cursor: pointer;
+}
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.defaultBtn{
+    font-family: FigtreeRegular;
+    font-size: 1em;
+    border: none;
+    background-color: #fff;
+    color: #010101;
+    height: 2.2em;
+    width: 10em;
+    transition: 0.5s;
+    animation: Appear 1.5s;
+}
+.defaultBtn:hover{
+    background-color: #454545;
+    color: #fff;
+    transition: 0.5s;
+}
+.settingsBgImg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.settingsHeader{
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+}
+.settingsHeaderTitle{
+    font-family: FigtreeMedium;
+    font-size:xx-large;
+    color: #FFF;
+    position: absolute;
+    left: 2vw;
+    top: 1.5vw;
+    animation: Appear 1.7s;
+}
+.toHome{
+    font-family: FigtreeMedium;
+    color: #FFF;
+    font-size: 1em;
+    text-decoration: none;
+    position: absolute;
+    right: 5vw;
+    top: 2vw
+}
+.settingsUserIcon{
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+    animation: Appear 1.7s;
+}
+.settingsSection{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.settingsWindow{
+    height: 95%;
+    width: 90%;
+    background-color: #292929;
+    display: flex;
+    flex-direction: row;
+}
+.settingsWinLeft{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+} 
+.settingsWinLeft{
+    font-family: FigtreeMedium;
+    color: #fff;
+    font-size: 2vh;
+    background-image: url(/assets/images/beachScenery.jpeg);
+    background-size: cover;
+}
+.settingsWinLeft .accDetailsBox{
+    flex-direction: column;
+}
+.settingsWinLeft .basicDetails{
+    gap: 1vh;
+}
+.settingsWinRight{
+    height: 100%;
+    width: 70%;
+}
+.settingsWinRightHeader{
+    height: 10%;
+    width: 100%;
+    font-family: FigtreeMedium;
+    color: #fff;
+    font-size: 3vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bigInput{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px white solid;
+    height: 3.5em;
+    width: 31em;
+    background-color: transparent;
+    font-family: FigtreeMedium;
+    color: #ffffff;
+}
+.bigInput::placeholder{
+    font-family: FigtreeMedium;
+    color: #ffffff;
+}
+.bigInput:focus{
+    outline: none;
+    color: #fff;
+    font-family: FigtreeRegular;
+    caret-color: whitesmoke;
+}
+.bigInput:focus::placeholder{
+    color: transparent;
+}
+.smallInput{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px white solid;
+    height: 3.5em;
+    width: 15em;
+    background-color: transparent;
+    font-family: FigtreeMedium;
+    color: #ffffff;
+}
+.smallInput::placeholder{
+    color: #fff;    
+    font-family: FigtreeMedium;
+}
+.smallInput:focus{
+    outline: none;
+    font-family: FigtreeRegular;
+    color: #fff;
+    caret-color: whitesmoke;
+}
+.smallInput:focus::placeholder{
+    color: transparent;
+}
+.chat{
+    height: 7vh;
+    width: 3.5vw;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    right: 1em;
+    bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    animation: Appear 1.3s;
+}
+.chatInfo{
+    display: none;
+    position: fixed;
+    right: 6em;
+    bottom: 4em;
+    color: #fff;
+    font-family: FigtreeRegular;
+    height: 1em;
+    width: 15em;
+    transition: 1s;
+    animation: Appear 1.3s;
+}

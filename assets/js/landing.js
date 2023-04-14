@@ -10,6 +10,7 @@ const logInOptMsg = document.querySelector(".userAccInfoBox");
 const chatIcon = document.querySelector(".chat");
 const chatInfo = document.querySelector(".chatInfo");
 
+// SignUp/LogIn 
 signUpBtn.addEventListener("click", function makeAuthMenuVisible() {
   authMenu.style.display = "block";
   logInBar.style.display = "none";
@@ -20,6 +21,7 @@ logInOpt.addEventListener("click", function makeLogInMenuVisible() {
     authMenu.style.display = "none";
   });
 
+  //Login Hover
 logInOpt.addEventListener("mouseover", function displayTheMsg(){
     logInOptMsg.style.display = "block";
 })
@@ -28,6 +30,7 @@ logInOpt.addEventListener("mouseout", function hideTheMsg(){
     logInOptMsg.style.display = "none";
 })
 
+//ChatBox
 chatIcon.addEventListener("mouseover", function chatHover(){
     chatInfo.style.display = "block";
 })

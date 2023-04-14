@@ -3,9 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-::-webkit-scrollbar{
-    display: none;
-}
 .defaultBtn{
     font-family: FigtreeRegular;
     font-size: 1em;
@@ -58,13 +55,14 @@ body{
     justify-content: center;
 }
 .mainSection{
-    height: 80vh;
+    height: 85vh;
     width: 100vw;
     position: relative;
     gap: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
 }
 .listings{
     height: 95%;
@@ -73,13 +71,20 @@ body{
     gap: 1vw;
     overflow-x: none;
 }
-.emptydiv{
-    height: 400px;
-    width: 400px;
-    background-color: #fff;
+.possibleListing{
+    height: 40%;
+    width: 100%;
+    background-color: #505050;
+}
+.possibleListingLeft{
+
+}
+.possibleListingRight{
+
 }
 .listings::-webkit-scrollbar {
     width: 5px;
+    display: none;
 }   
 
 .listings::-webkit-scrollbar-track {
