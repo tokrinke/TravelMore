@@ -54,6 +54,9 @@ body{
     flex-direction: row;
     justify-content: center;
 }
+.headerTitle{
+    text-decoration: none;
+}
 .mainSection{
     height: 85vh;
     width: 100vw;
@@ -139,7 +142,6 @@ body{
     color: #fff;
     caret-color: whitesmoke;
     border-bottom: 1.5px white solid;
-    transition: 1s;
 }
 .inputSearch::placeholder{
     color: #fff;    
@@ -153,9 +155,19 @@ body{
     font-family: FigtreeRegular;
     color: #fff;
     position: absolute;
-    right: 5vw;
+    right: 9vw;
     top: 2vw;
     animation: Appear 1.3s;
+}
+#settingsBtn{
+    animation: Appear 1.3s;
+    font-family: FigtreeRegular;
+    color: #FFF;
+    font-size: 1em;
+    text-decoration: none;
+    position: absolute;
+    right: 5vw;
+    top: 2vw
 }
 .userIcon{
     position: absolute;

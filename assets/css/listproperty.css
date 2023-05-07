@@ -45,7 +45,18 @@ body{
     animation: Appear 1.7s;
 }
 .toHome{
+    animation: Appear 1.7s;
     font-family: FigtreeMedium;
+    color: #FFF;
+    font-size: 1em;
+    text-decoration: none;
+    position: absolute;
+    right: 9vw;
+    top: 2vw
+}
+#settingsBtn{
+    animation: Appear 1.3s;
+    font-family: FigtreeRegular;
     color: #FFF;
     font-size: 1em;
     text-decoration: none;
@@ -57,7 +68,7 @@ body{
     position: absolute;
     right: 2vw;
     top: 2vw;
-    animation: Appear 1.7s;
+    animation: Appear 1.3s;
 }
 .listMainSection{
     height: 90vh;

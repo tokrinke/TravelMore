@@ -30,10 +30,3 @@ logInOpt.addEventListener("mouseout", function hideTheMsg(){
     logInOptMsg.style.display = "none";
 })
 
-//ChatBox
-chatIcon.addEventListener("mouseover", function chatHover(){
-    chatInfo.style.display = "block";
-})
-chatIcon.addEventListener("mouseout", function chatHoverEnd(){
-    chatInfo.style.display = "none";
-})
